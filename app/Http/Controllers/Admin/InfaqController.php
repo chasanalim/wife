@@ -58,7 +58,7 @@ class InfaqController extends Controller
         }
 
         return Inertia::render('Admin/Infaq/Index', [
-            'title' => 'Data Infaq Kelompok',
+            'title' => 'Data Pemasukan',
             'flash' => [
                 'message' => session('message')
             ],

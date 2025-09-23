@@ -243,7 +243,7 @@ export default function Sidebar() {
                                                 }`}
                                             >
                                                 <span>
-                                                    PENGELUARAN MODAL
+                                                    UANG KELUAR
                                                 </span>
                                             </NavDropdown.Item>
                                             {/* <NavDropdown.Item
@@ -302,7 +302,7 @@ export default function Sidebar() {
                                             }
                                             id="basic-nav-dropdown"
                                         >
-                                            <NavDropdown.Item
+                                            {/* <NavDropdown.Item
                                                 as={Link}
                                                 method="get"
                                                 href={route("admin.jurnal")}
@@ -335,7 +335,7 @@ export default function Sidebar() {
                                                 }`}
                                             >
                                                 <span>BUKU BESAR</span>
-                                            </NavDropdown.Item>
+                                            </NavDropdown.Item> */}
                                             <NavDropdown.Item
                                                 as={Link}
                                                 method="get"
@@ -353,7 +353,7 @@ export default function Sidebar() {
                                             >
                                                 <span>LAPORAN KEUANGAN</span>
                                             </NavDropdown.Item>
-                                            <NavDropdown.Item
+                                            {/* <NavDropdown.Item
                                                 as={Link}
                                                 method="get"
                                                 href={route(
@@ -373,8 +373,8 @@ export default function Sidebar() {
                                                 <span>
                                                     REKAP SHODAQAH KELOMPOK
                                                 </span>
-                                            </NavDropdown.Item>
-                                            <NavDropdown.Item
+                                            </NavDropdown.Item> */}
+                                            {/* <NavDropdown.Item
                                                 as={Link}
                                                 method="get"
                                                 href={route(
@@ -411,7 +411,7 @@ export default function Sidebar() {
                                                 }`}
                                             >
                                                 <span>REKAP TABUNGAN MASJID</span>
-                                            </NavDropdown.Item>
+                                            </NavDropdown.Item> */}
                                         </NavDropdown>
                                     </Nav>
                                 </li>

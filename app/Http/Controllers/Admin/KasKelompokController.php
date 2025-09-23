@@ -58,7 +58,7 @@ class KasKelompokController extends Controller
         }
 
         return Inertia::render('Admin/KasKelompok/Index', [
-            'title' => 'Data Pengeluaran Kelompok',
+            'title' => 'Data Pengeluaran',
             'flash' => [
                 'message' => session('message')
             ],

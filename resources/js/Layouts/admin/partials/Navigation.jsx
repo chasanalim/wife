@@ -59,13 +59,13 @@ export default function Navbar(props) {
             case currentRoute.startsWith("admin.shodaqah"):
                 return "Amplop IR";
             case currentRoute.startsWith("admin.infaq"):
-                return "Infaq Pengajian dan Sholat Jumat";
+                return "PEMASUKAN";
             case currentRoute.startsWith("admin.pemasukan"):
                 return "Pemasukan";
             case currentRoute.startsWith("admin.pengeluaran"):
                 return "Pengeluaran";
             case currentRoute.startsWith("admin.kaskelompok"):
-                return "Kas Kelompok";
+                return "PENGELUARAN";
             case currentRoute.startsWith("admin.tabungan"):
                 return "Tabungan Masjid";
 

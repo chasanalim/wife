@@ -266,7 +266,7 @@ export default function Dashboard({ kas_kelompok, tabungan }) {
             <section>
                 <div className="card m-3 shadow">
                     <h4 className="text-center mt-3 mb-0 fw-bold">
-                        KAS KELOMPOK
+                        USAHAKU
                     </h4>
                     <div className="container">
                         {/* Summary Cards */}
@@ -277,7 +277,7 @@ export default function Dashboard({ kas_kelompok, tabungan }) {
                                         <div className="d-flex align-items-center justify-content-between ">
                                             <div>
                                                 <h6 className="text-muted mb-1">
-                                                    Saldo Kas kelompok
+                                                    Saldo Usaha
                                                 </h6>
                                                 <h3 className="fw-bold mb-0">
                                                     {formatCurrency(
@@ -425,13 +425,12 @@ export default function Dashboard({ kas_kelompok, tabungan }) {
                     </div>
                 </div>
             </section>
-            <section>
+            {/* <section>
                 <div className="card m-3 shadow">
                     <h4 className="text-center mt-3 mb-0 fw-bold">
                         TABUNGAN MASJID DAERAH
                     </h4>
                     <div className="container">
-                        {/* Summary Cards */}
                         <div className="row g-3 mb-4 m-1 mt-0">
                             <div className="col-12 col-md-3">
                                 <div className="card h-100 border-0 shadow">
@@ -551,7 +550,6 @@ export default function Dashboard({ kas_kelompok, tabungan }) {
                             </div>
                         </div>
 
-                        {/* Chart */}
                         {isDataReady && (
                             <div className="card border-0 shadow m-1">
                                 <div className="card-body">
@@ -566,7 +564,7 @@ export default function Dashboard({ kas_kelompok, tabungan }) {
                         )}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </AdminLayout>
     );
 }

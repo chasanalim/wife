@@ -345,7 +345,7 @@ export default function Index({ title, flash, infaq, can }) {
                                         className="btn btn-sm btn-primary mb-3 "
                                     >
                                         <i className="bi bi-plus-circle me-2"></i>
-                                        Tambah Infaq
+                                        Tambah Pemasukan
                                     </Link>
                                 )}
                             </div>
