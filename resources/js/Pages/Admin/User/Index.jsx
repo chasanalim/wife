@@ -50,6 +50,10 @@ export default function Index({ title, can, flash }) {
                     name: "phone_number",
                 },
                 {
+                    data: "last_login",
+                    name: "last_login",
+                },
+                {
                     data: "roles",
                     name: "roles",
                     render: function (data) {
@@ -177,6 +181,7 @@ export default function Index({ title, can, flash }) {
                                                 <th>NIK</th>
                                                 <th>Email</th>
                                                 <th>No Hp</th>
+                                                <th>Last Login</th>
                                                 <th>Role</th>
                                                 <th>Aksi</th>
                                             </tr>
